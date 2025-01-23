@@ -4,8 +4,8 @@ const TGAUGE_CONF = {
 
 // REPLACE THE VALUE => point to actual
 // E.g., "http://ip.addr.to.server/api/v1" + "/status"
-const BUTTON_ENDPOINT = "http://40.85.113.203:3000/api/v1/button"; // New endpoint for button state
-const CURRENT_VALUE_ENDPOINT = "http://40.85.113.203:3000/api/v1/current"; // Endpoint to get the current value
+const BUTTON_ENDPOINT = "http://xx.xx.xxx.xxx:3000/api/v1/button"; // New endpoint for button state
+const CURRENT_VALUE_ENDPOINT = "http://xx.xx.xxx.xxx:3000/api/v1/current"; // Endpoint to get the current value
 export class TGauge {
     constructor(container, mock_Tgauge, real_data) {
         this.container = container;
