@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const CORS_HEADERS = {
-    'Access-Control-Allow-Origin': 'http://127.0.0.1:3001',
+    'Access-Control-Allow-Origin': 'http://xxx.x.x.x:3001',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
 };
